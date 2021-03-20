@@ -58,6 +58,7 @@ while 1 == 1:
   muestra(chr(243) + " NU " + chr(243), sacaprecio("NU-EUR", 166.808203, 100))
   muestra(chr(243) + " ZEC " + chr(243), sacaprecio("ZEC-EUR", 0.047, 2))
   muestra(chr(243) + " UNI " + chr(243), sacaprecio("UNI-EUR", 0.063630, 1.4))
+  # Getting net income substracting taxes (in Spain, small gains are about 19% = 0.19)
   neto = sumaganancia - (sumaganancia * 0.19)
   # Show incomes
   muestra("GROSS: " + str(sumaganancia), "  NET: " + str(round(neto, 2)))
