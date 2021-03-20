@@ -1,6 +1,5 @@
 # coding=ASCII
 import urllib3
-import html2text
 from datetime import date
 from datetime import datetime
 from time import sleep
